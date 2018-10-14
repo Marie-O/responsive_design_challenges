@@ -3,17 +3,12 @@
     width: 100%;
     height: 100px;
     background-color: #9370db;
-    margin: 10px;
+    margin: 10px 0;
 }
 
 @media (min-width: 992px) {
     .column {
         width: 30%;
-    }
-}
-
-@media (max-width: 991px) {
-    .column {
-      margin: 10px 0;
+        margin: 10px;
     }
 }
